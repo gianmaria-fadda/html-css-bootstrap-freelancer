@@ -32,7 +32,6 @@ img {
 #header-bottom .container .row .col .row .col-xl-2 .box {
     width: 200px;
     margin-top: 30px;
-    object-fit: cover;
 }
 
 #header-bottom .container .row .col .row .col-xl-4 .box {
@@ -66,3 +65,16 @@ img {
     border-radius: 20px;
 }
 
+#main-center .container {
+    background-color: #1ABC9C;
+}
+
+#main-center .container .row .col-xl-4 .box {
+    height: 50px;
+    margin-top: 15px;
+    background-color: red;
+}
+
+#main-center .container .row .col-xl-2:last-child .box.text-center {
+    margin-bottom: 50px;
+}

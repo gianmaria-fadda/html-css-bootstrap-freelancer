@@ -3,12 +3,19 @@
     GENERAL
 */
 
+img {
+    max-width: 100%;
+}
+
+/*
+    HEADER
+*/
+
 #header-top .container {
     background-color: #2C3E50;
 }
 
 #header-top .container .row .col-xl-2 > * {
-    background-color: red;
     color: white;
 }
 
@@ -16,3 +23,46 @@
     font-size: 1.1cap;
     padding: 0 5px;
 }
+
+#header-bottom .container .row .col {
+    background-color: #1ABC9C;
+    padding-bottom: 30px;
+}
+
+#header-bottom .container .row .col .row .col-xl-2 .box {
+    width: 200px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+
+#header-bottom .container .row .col .row .col-xl-4 .box {
+    height: 50px;
+    margin-top: 15px;
+    background-color: red;
+}
+
+/*
+    MAIN
+*/
+
+#main-top .container {
+    padding-bottom: 50px;
+}
+
+#main-top .container .row .col-xl-2 .box h1 {
+    padding-top: 50px;
+}
+
+#main-top .container .row .col-xl-4 .box {
+    background-color: red;
+    height: 30px;
+}
+
+#main-top .container .row .col-xl-8 .row .col .box {
+    margin-top: 10px;
+}
+
+#main-top .container .row .col-xl-8 .row .col .box img {
+    border-radius: 20px;
+}
+

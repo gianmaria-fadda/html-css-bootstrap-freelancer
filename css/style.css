@@ -11,7 +11,8 @@ img {
     HEADER
 */
 
-#header-top .container {
+#header-top,
+#footer-bottom {
     background-color: #2C3E50;
 }
 
@@ -24,7 +25,7 @@ img {
     padding: 0 5px;
 }
 
-#header-bottom .container .row .col {
+#header-bottom {
     background-color: #1ABC9C;
     padding-bottom: 30px;
 }
@@ -32,12 +33,6 @@ img {
 #header-bottom .container .row .col .row .col-xl-2 .box {
     width: 200px;
     margin-top: 30px;
-}
-
-#header-bottom .container .row .col .row .col-xl-4 .box {
-    height: 50px;
-    margin-top: 15px;
-    background-color: red;
 }
 
 /*
@@ -52,11 +47,6 @@ img {
     padding-top: 50px;
 }
 
-#main-top .container .row .col-xl-4 .box {
-    background-color: red;
-    height: 30px;
-}
-
 #main-top .container .row .col-xl-8 .row .col .box {
     margin-top: 10px;
 }
@@ -65,16 +55,37 @@ img {
     border-radius: 20px;
 }
 
-#main-center .container {
+#main-center {
     background-color: #1ABC9C;
-}
-
-#main-center .container .row .col-xl-4 .box {
-    height: 50px;
-    margin-top: 15px;
-    background-color: red;
 }
 
 #main-center .container .row .col-xl-2:last-child .box.text-center {
     margin-bottom: 50px;
 }
+
+#main-center .btn {
+    background-color: #1ABC9C;
+    border: 1px solid white;
+}
+
+#main-bottom .container .row .col-xl-4 .box > div,
+#main-center .container .row .col-xl-4 .box > div,
+#main-top .container .row .col-xl-4 .box > div,
+#header-bottom .container .row .col .row .col-xl-4 .box > div {
+    width: 150px;
+    height: 5px;
+}
+
+#main-bottom .btn {
+    background-color: #1ABC9C;
+    border: none;
+}
+
+/*
+    FOOTER
+*/
+
+#footer-top {
+    background-color: #3A546D;
+}
+

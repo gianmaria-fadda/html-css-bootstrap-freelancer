@@ -51,7 +51,7 @@ img {
     margin-top: 10px;
 }
 
-#main-top .container .row .col-xl-8 .row .col .box img {
+#main-top .container .row .col-xl-8 img {
     border-radius: 20px;
 }
 
@@ -70,7 +70,7 @@ img {
 
 #main-bottom .container .row .col-xl-4 .box > div,
 #main-center .container .row .col-xl-4 .box > div,
-#main-top .container .row .col-xl-4 .box > div,
+#main-top .container .row .col-lg-4 .box > div,
 #header-bottom .container .row .col .row .col-xl-4 .box > div {
     width: 150px;
     height: 5px;
